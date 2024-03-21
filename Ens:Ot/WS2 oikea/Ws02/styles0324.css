@@ -1,0 +1,85 @@
+header{
+    background-color: antiquewhite;
+    background-image:url(/images/blue-snow.webp);
+
+    color: blue;
+    padding: 1em;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    clear: left;
+     border: 2px dotted; /* Set border to dotted and 2 pixels wide */
+        width: 1100px; /* Set width to 100 pixels */
+        height: 100px; /* Set height to 100 pixels */
+}
+    body{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            }  
+    /* tekee koko sisällöstä keskitetyn nätin */
+    
+    .wrapper{
+        display:flex;
+        
+    
+    }
+    .wrapper >div{
+        flex:1;
+        text-align: center;
+    
+    }  /* tekee menu otsikoista horisontaalisen nätin */
+
+ h1 { text-align: center;
+    color:blueviolet;
+    padding: 1em;
+    border: 2px solid pink;
+    border-radius: 10px;
+      
+}
+aside {
+    float: right;
+    width: 45%;
+    color: blue;
+    height: 430px;
+    padding: 1em;
+
+
+} article {
+    float: left;
+    width: 65%;
+    padding: 1em;
+    color: blue;
+    height: 230px;
+    
+} footer{
+    color: blue;
+    font-family:garamond;
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+    background: pink;
+
+} .article-utah{ 
+    margin-right:20px;
+    background: pink;
+    padding:10px;
+    border: 5px solid green;
+
+  
+
+
+} .article-utahkoillis{ 
+    float:right;
+    margin-right:20px;
+    background: pink;
+    padding:10px;
+
+} .section-utah2{
+float: center;
+width: 200px;
+margin-right: 50px;
+
+/* floatilla vedetään johonkin suuntaan osiota ja paddingilla saa tekstin ympärille tilaa kivasti*/
+
+}

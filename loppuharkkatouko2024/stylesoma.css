@@ -154,6 +154,7 @@ text-transform: none;
   
   form label {
     display: block;
+    margin-left: 10px;
   
   }
   

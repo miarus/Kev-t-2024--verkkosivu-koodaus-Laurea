@@ -1,0 +1,183 @@
+body {
+    background-color: rgb(223, 233, 223);
+}
+
+
+.containerhero h1.text-center {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-size: 45px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: rgb(34, 121, 105);
+font-weight: 700;
+text-decoration: none;
+font-style: italic;
+font-variant: normal;
+text-transform: none;
+}
+
+
+.btn-primary {
+    background-color: rgb(42, 102, 121); /* Change this if color not ok */
+}
+
+.mx-4 {
+    padding: 40px; /* Adjust the value if needed to create the desired space */
+}
+
+.hero-image-muut img {
+    width: 100%; /* Make the image width 100% of its container */
+  
+}
+
+
+.hero-image-uutiskirje img {
+    width: 100%; /* Make the image width 100% of its container */
+  
+}
+
+.hero-image-espoo img {
+    width: 100%; /* Make the image width 100% of its container */
+  
+}
+
+.quote {
+    /* Your styles here */
+    font-size: 20px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-style: italic;
+    color: rgb(34, 121, 105);
+    margin-bottom: 20px;
+   
+}
+
+/* The hero image espoo */
+
+  
+  /* Place text in the middle of the image */
+  .hero-text-espoo {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .container-text espoo vasen {
+    padding: 20px;
+    
+  }
+
+  .hero-text-vantaa {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .container-text vantaa vasen {
+    padding: 20px;
+    
+  }
+
+  .hero-text-muut {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .container-text muut vasen {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .hero-text-uutiskirje {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    font-family: Palatino;
+  }
+  .container-text uutiskirje {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+
+  .avantoaarteita-text-espoo {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; /*  font family */
+    font-size: 20px; /* font size */
+ letter-spacing: 2px;
+word-spacing: 2px;
+color: rgb(34, 121, 105);
+font-weight: 700;
+text-decoration: none;
+font-style: italic;
+font-variant: normal;
+text-transform: none;
+  }
+
+
+.container-text espoo oikea {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+
+.containerhero-uutiskirje h2.text-center {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-size: 45px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: rgb(34, 121, 105);
+font-weight: 700;
+text-decoration: none;
+font-style: italic;
+font-variant: normal;
+text-transform: none;
+}
+
+
+
+.form {
+    text-align: center;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 80%;
+    padding: 6px;
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Ensures padding and border are included in width */
+    margin-top: 2px; /* Adjust the top margin */
+
+  } 
+
+  /* Default styles for the button */
+button[type="submit"] {
+    background-color: rgb(42, 102, 121); /* button color */
+    color: white;
+    padding: 10px 20px; /* Adjust padding  */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add smooth transition */
+  }
+  
+  /* Styles for the button on hover */
+  button[type="submit"]:hover {
+    background-color: rgb(34, 121, 105); /* My hover color */
+  }

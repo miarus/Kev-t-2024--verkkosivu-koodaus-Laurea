@@ -150,11 +150,12 @@ text-transform: none;
      margin-bottom: 20px;
     justify-content=center;
     display:block;
+    margin-left:10px, 
   }
   
   form label {
     display: block;
-    margin-left: 10px;
+  
   
   }
   
